@@ -1,0 +1,9 @@
+# Use the relative path to your dataset folder
+train: ./train/images
+val: ./valid/images
+
+# Define your classes
+nc: 2 # Total number of classes
+names:
+  0: leaf
+  1: disease
